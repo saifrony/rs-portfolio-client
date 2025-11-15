@@ -1,0 +1,21 @@
+.contactShadow{
+    transition: all 0.4s;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #00000059, -3px -3px 5px #f8f8f823;
+}
+.contactShadow:hover {
+    box-shadow: 3px 3px 5px #00AB78;
+    animation: contactShadow-bg 1.0s ease-in infinite ;
+}
+
+@keyframes contactShadow-bg{
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0px 0px 15px #00AB78;
+    }
+    100%{
+        box-shadow: none;
+    }
+}

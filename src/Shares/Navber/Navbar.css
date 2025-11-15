@@ -1,0 +1,10 @@
+ .p-text{
+    color: #00AB78;
+    /* color: #66caf1; */
+    /* border-bottom: 2px solid #66caf1; */
+    border-bottom: 2px solid #00AB78;
+ }
+ .active{
+    color: #00AB78;
+    border-bottom: 2px solid #00AB78;
+} 

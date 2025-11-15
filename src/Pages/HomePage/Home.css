@@ -1,0 +1,42 @@
+/* homeBtnAnimation */
+
+.home-btn-anim {
+    box-shadow: 0px 0px 15px #00AB78;
+    transition: all 0.2s;
+    animation: home-btn-bg 1.0s ease-in infinite ;
+}
+
+@keyframes home-btn-bg {
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0px 0px 15px #00AB78;
+    }
+    100%{
+        box-shadow: none;
+    }
+}
+
+/* home link groups btn */
+
+.btnHover{
+    transition: all 0.2s;
+   
+}
+.btnHover:hover {
+    animation: btnHoverBg 1.0s ease-in infinite ;
+    box-shadow: 0px 0px 15px #00AB78;
+}
+
+@keyframes btnHoverBg {
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0px 0px 15px #00AB78;
+    }
+    100%{
+        box-shadow: none;
+    }
+}
